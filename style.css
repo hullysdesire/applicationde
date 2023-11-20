@@ -9,18 +9,18 @@ body{
     overflow-x: hidden;
 }
 
-.title_badge{
+.title-badge{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* height: 100vh; */
+    height: 100vh;
     background-image: url(./photos/Météo\ _\ 17\ départements\ en\ vigilance\ orange\ pluie-inondation\,\ orages\ et\ crues.jpg);
     background-repeat: repeat;
     background-size: cover; /****Ajuster la taille de l'image pour couvrir tout le conteneur***/
     animation: fadeInOut 10s infinite alternate;  /****Ajustez la durée et le comportement de l'animation selon mes besoins****/
 
 
-@media  screen and (max-widht:768px) {
+@media screen and (max-width:768px) {
     display: block;
     align-items: center;
     justify-content: center;
