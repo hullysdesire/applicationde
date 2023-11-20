@@ -12,11 +12,35 @@
 
 
     <!-- ********** c'est le conteneur principale qui contient tout le contenu ***** -->
-    <div class="title-badge">  
-        <h1>Hully's-Meteo</h1>
-        <h3>La meilleur application de meteo en temps réel</h3>
+    <div class="title-badge"> 
+        <form>
+
+            <h1>Hully's-Meteo</h1>
+            <h3>La meilleur application de meteo en temps réel</h3>
+            <div class="saisi">
+                <label for="city" class="form-label"> Veuillez rentrer votre ville ci-dessous</label>
+                <input type="cp" class="form-control" id=""inputVille> <br>
+
+            </div>
+
+            <button type="submit" class="btn btn-primaire">Recherche </button>
+        </form>
+
+        <div class="boite-box">
+            <div class="element_temps1">
+                <div id="ville" class="box_element"></div>
+                <div id="humidite" class="box_element"></div>
+            </div>
+
+
+            <div class="element_temps2">
+                <div id="vent" class="box_element"></div>
+                <div id="temp" class="box_element"></div>
+            </div>
+        </div>
 
     </div>
+    
     
 </body>
 </html>
